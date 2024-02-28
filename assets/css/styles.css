@@ -18,3 +18,14 @@
   text-align: center;
 }
 /* Header Section */
+
+/* Contact Section */
+.contact-container {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)),
+    url("../images/bg-02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+/* Contact Section */
