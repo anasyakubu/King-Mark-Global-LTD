@@ -29,3 +29,29 @@
   height: 100%;
 }
 /* Contact Section */
+
+/* Video Section */
+.video-section {
+  background-color: #000000;
+}
+
+.video-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height:width) */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+}
+
+/* Video Section */
