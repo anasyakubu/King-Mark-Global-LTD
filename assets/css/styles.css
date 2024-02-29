@@ -33,6 +33,7 @@
 /* Video Section */
 .video-section {
   background-color: #000000;
+  color: #fff;
 }
 
 .video-container {
@@ -40,7 +41,7 @@
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  max-width: 85%;
+  max-width: 95%;
   margin: 0 auto; /* Center the container */
 }
 
