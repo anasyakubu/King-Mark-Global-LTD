@@ -5,7 +5,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 70vh;
+}
+
+@media screen {
 }
 
 .content {
@@ -59,3 +62,9 @@
   background-color: #000000;
 }
 /* subscribe */
+
+@media screen and (max-width: 767px) {
+  .Header {
+    height: 50vh;
+  }
+}
